@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "shared": "../shared/main.ts"
+  },
+  "tasks": {
+    "dev": "deno run -A --node-modules-dir npm:vite",
+    "test": "deno test",
+    "lint": "deno lint"
+  },
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.ns"
+    ]
+  }
+}
