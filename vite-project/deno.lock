@@ -1,6 +1,7 @@
 {
   "version": "4",
   "specifiers": {
+    "npm:@deno/vite-plugin@1": "1.0.0_vite@5.4.10",
     "npm:@eslint/js@^9.13.0": "9.14.0",
     "npm:@types/react-dom@^18.3.1": "18.3.1",
     "npm:@types/react@^18.3.12": "18.3.12",
@@ -155,6 +156,12 @@
       "dependencies": [
         "@babel/helper-string-parser",
         "@babel/helper-validator-identifier"
+      ]
+    },
+    "@deno/vite-plugin@1.0.0_vite@5.4.10": {
+      "integrity": "sha512-Q9UeWqs3s7B5lqzu1Z5QrzYAzqTj3+F9YW17tWobGRbT2G40ihwis6zK/+QgMgcG4fm3IqdIfXmpQYhkZpdMfw==",
+      "dependencies": [
+        "vite"
       ]
     },
     "@esbuild/aix-ppc64@0.21.5": {
@@ -1185,6 +1192,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@deno/vite-plugin@1",
         "npm:@eslint/js@^9.13.0",
         "npm:@types/react-dom@^18.3.1",
         "npm:@types/react@^18.3.12",
